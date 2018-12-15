@@ -1,0 +1,50 @@
+
+/* rgb(62, 19, 10) */
+/* rgb(223, 122, 130) */
+/* rgb(45, 134, 178) */
+/* rgb(236, 207, 163) */
+.idea {
+    border-radius: 5px;
+    max-width: 45%;
+    padding: 1vmin;
+    background: rgba(255, 255, 255, 0.794);
+    color: rgb(62, 19, 10);
+  }
+  
+  .idea:hover {
+    background: white;
+  }
+  
+  .idea h3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 .5em 0;
+    border-radius: 1px;
+    padding: 0;
+    position: relative;
+  }
+  .idea h3::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background: rgba(62, 19, 10, .2);
+    display: block;
+    position: absolute;
+    left: .3em;
+    bottom: -.5em;
+  }
+  
+  .idea h3 span {
+    background: rgb(42, 35, 32);
+    padding: 0 .5em 0 .2em;
+    margin: 0 .5em 0 0;
+    color: white;
+  }
+  
+  .idea p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0 1vmin 0 .5vmin;  
+    color: rgb(62, 19, 10);
+  }
+  

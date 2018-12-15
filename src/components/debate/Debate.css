@@ -1,0 +1,44 @@
+.debate {
+    margin: 2vmin 0 0 0;
+    text-decoration: none!important;
+}
+
+.debate:hover * {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.debate h2 {
+    font-weight: 400;
+    max-width: 75%;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    color: white;
+}
+
+.debate h2 span {
+    background: rgb(53, 71, 106);
+    padding: 0 .2em;
+    margin: 0 .2em 0 0;
+    color: white;
+}
+
+.debate p {
+    font-weight: 400;
+    max-width: 75%;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    color: white;
+    background: rgb(223, 122, 130);
+    width: auto;
+    display: inline-flex;
+    font-size: 11px;
+    padding: 0 1vmin 0 .5vmin;
+    height: .5em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+}

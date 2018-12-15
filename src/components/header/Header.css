@@ -1,0 +1,24 @@
+.header {
+    position: absolute;
+    top: -8vmin;
+    left: -5%;
+    width: 110%;
+    border-radius: 5px;
+    border: 1px solid rgba(52, 71, 107, .2);   
+    height: 15vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmin 5% 8vmin 5%;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #3E130A;
+    font-family: 'futura lt';
+    font-size: 30px;
+    font-weight: 400;
+}

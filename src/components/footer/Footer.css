@@ -1,0 +1,26 @@
+.footer {
+    /* background: rgb(244, 244, 244); */
+    position: absolute;
+    bottom: -8vmin;
+    left: -5%;
+    width: 110%;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 6px rgba(0,0,0,.2); */
+    border: 1px solid rgba(52, 71, 107, .2);
+    height: 15vmin;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1vmin;
+    box-sizing: border-box;
+}
+
+.footer p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+    font-family: 'futura lt';
+    font-size: 19px;
+    color: rgb(127, 127, 127);
+}

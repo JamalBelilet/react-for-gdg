@@ -1,0 +1,20 @@
+.social {
+}
+.social ul, li, a {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: .8vmin;
+}
+.social img {
+    width: 3vmin;
+    height: 3vmin;
+    padding: 0;
+    margin:0;
+    filter: brightness(0) invert(10%) sepia(73%) saturate(915%) hue-rotate(335deg) brightness(97%) contrast(101%);
+}
+.social a:hover img {
+    filter: invert(66%) sepia(8%) saturate(3929%) hue-rotate(308deg) brightness(94%) contrast(85%);
+}
